@@ -48,4 +48,4 @@ You can also change the body on each script to your liking, and the emojis it us
 ```
 #tweet body
 tweet = f'Current weather observation: {icon2}  {description} and {temp}°F, feels like {feels_like}°F. {wind_speed}MPH winds from the {directions[degrees]} with {humidity}% humidity.'
-\\\
+```
