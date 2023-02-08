@@ -53,4 +53,5 @@ unitGroup = "" # Units for measurement (us, metric, uk, base)
 #tweet body
 tweet = f'Current weather observation: {icon2}  {description} and {temp}°F, feels like {feels_like}°F. {wind_speed}MPH winds from the {directions[degrees]} with {humidity}% humidity.'
 ```
-5. Run the scripts in a scheudler like Google Cloud
+5. Run the scripts in a scheudler, I personally think WayScript works the best. heres a youtube tutorial:
+https://youtu.be/YtPyFAmFopg
