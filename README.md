@@ -9,7 +9,7 @@ This bot is a useful tool for providing up-to-date weather information to a larg
 
 This is a example of the bot
 
-<a href = "https://twitter.com/ouweatherbot"> <img src="https://img.shields.io/twitter/url?label=ouweatherbot&style=social&url=https%3A%2F%2Ftwitter.com%2Fouweatherbot"/> </a>
+<a href = "https://twitter.com/OUWEATHERBOT"> <img src="https://img.shields.io/twitter/url?label=OUWEATHERBOT&style=social&url=https%3A%2F%2Ftwitter.com%2FOUWEATHERBOT"/> </a>
 
 
 # 🖥️ Set-Up 
