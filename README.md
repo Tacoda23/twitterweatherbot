@@ -21,6 +21,10 @@ You will also need to create free accounts with OpenWeatherMaps and VisualCrossi
 
 # 🐤 How to use
 
+Install the reqiurements
+```
+pip install -r requirements.txt
+```
 Enter your dev information and API Keys in the '' as marked
 ```
 api_key = ""
