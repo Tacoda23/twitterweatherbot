@@ -21,11 +21,11 @@ You will also need to create free accounts with OpenWeatherMaps and VisualCrossi
 
 # 🐤 How to use
 
-Install the reqiurements
+1. Install the reqiurements
 ```
 python3 -m pip install -r requirements.txt
 ```
-Enter your dev information and API Keys in the '' as marked
+2. Enter your dev information and API Keys in the '' as marked
 ```
 api_key = ""
 api_secret = ""
@@ -33,7 +33,7 @@ bearer_token = r""
 access_token = ""
 access_token_secret = ""
 ```
-Youll need to enter your city's name and latitude and longitude in the marked '' 
+3. Youll need to enter your city's name and latitude and longitude in the marked '' 
 ```
 #OpenWeatherMap
 lat = "" # latitude of city
@@ -47,10 +47,10 @@ state = "" # name of state
 API_key = "" # Visual Crossing Weather API Key
 unitGroup = "" # Units for measurement (us, metric, uk, base)
 ```
-You can also change the body on each script to your liking, and the emojis it uses. 
+4. You can also change the body on each script to your liking, and the emojis it uses. 
 
 ```
 #tweet body
 tweet = f'Current weather observation: {icon2}  {description} and {temp}°F, feels like {feels_like}°F. {wind_speed}MPH winds from the {directions[degrees]} with {humidity}% humidity.'
 ```
-Run the scripts in a scheudler like Google Cloud
+5. Run the scripts in a scheudler like Google Cloud
