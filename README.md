@@ -20,8 +20,32 @@ You will also need to create free accounts with OpenWeatherMaps and VisualCrossi
 
 
 # 🐤 How to use
-Enter your dev information and API Keys in the '' as marked
-Youll need to enter your cities name and latitude and longitude in the marked '' 
 
+Enter your dev information and API Keys in the '' as marked
+```
+api_key = ""
+api_secret = ""
+bearer_token = r""
+access_token = ""
+access_token_secret = ""
+```
+Youll need to enter your city's name and latitude and longitude in the marked '' 
+```
+#OpenWeatherMap
+lat = "" # latitude of city
+lon = "" # longitude of city
+API_key = "" # OpenWeatherMap API Key
+units = "" # Units for measurement
+
+#VisualCrossing
+city = "" # name of city
+state = "" # name of state
+API_key = "" # Visual Crossing Weather API Key
+unitGroup = "" # Units for measurement (us, metric, uk, base)
+```
 You can also change the body on each script to your liking, and the emojis it uses. 
 
+```
+#tweet body
+tweet = f'Current weather observation: {icon2}  {description} and {temp}°F, feels like {feels_like}°F. {wind_speed}MPH winds from the {directions[degrees]} with {humidity}% humidity.'
+\\\
