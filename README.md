@@ -1,7 +1,7 @@
 # 📝 Description
 This repository contains code to run a bot written in Python3, utilizing the OpenWeatherMap and VisualCrossing APIs to gather information on current weather conditions, day and nighttime forecasts, and National Weather Service (NWS) alerts. The bot pulls this information and posts it to Twitter using the Tweepy library.
 
-Once the bot is run, it will access the OpenWeatherMap API and retrieve information such as temperature, wind speed, and humidity. This data is then processed and combined with information from the VisualCrossing API, which provides day and nighttime forecasts, as well as any NWS alerts in the area.
+Once the bot is running, it will access the OpenWeatherMap API and retrieve information such as temperature, wind speed, and humidity. This data is then processed and combined with information from the VisualCrossing API, which provides day and nighttime forecasts, as well as any NWS alerts in the area.
 
 The bot then uses the Tweepy library to post this information to Twitter, including a brief summary of the current weather conditions and any important alerts from the NWS. The posts are made using a designated Twitter account and can be viewed by the public in real-time.
 
