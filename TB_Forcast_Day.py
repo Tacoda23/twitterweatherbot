@@ -144,7 +144,7 @@ elif (icon5 == 'snow'): #snow
     icon6 = '❄️'
 
 if (icon7 == 'clear-day'): #clear day
-    icon68 = "☀️"
+    icon8 = "☀️"
 elif (icon7 == 'clear-night'): #clear night
     icon8 = '🌑'
 elif (icon7 == 'partly-cloudy-day'): #scattered clouds day
