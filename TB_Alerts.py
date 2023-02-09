@@ -6,17 +6,17 @@ import tweepy
 import pyshorteners
 
 #twitter dev credentials
-api_key = "an3IW5VUN5LnMwtpqsUgIajSD"
-api_secret = "YSsxJDGSLsuBiutZblujui9phylFB0uHGmf4z8AIVZADzPHkHJ"
-bearer_token = r"AAAAAAAAAAAAAAAAAAAAALymkQEAAAAAwaUX%2BVpmfpNGgiSZryl8CFls80E%3DSmH9T8UEv99SYfYC2UxBvQCz2E4NotRpcmOLmXVKcGtxkM7YKQ"
-access_token = "1439677069126942722-7gpQDt0wNi1xbeCf5IPyrGMMLB3qky"
+api_key = ""
+api_secret = ""
+bearer_token = r""
+access_token = ""
 access_token_secret = "49pTtNHcoHn6yzYwPcvEd5YjAYlToM0CvzP9TzdCDx4r1"
 
 #location information
-city = "Norman" # name of city
-state = "Oklahoma" # name of state
-API_key = "5D63GEFAQUADD9WR7XHY6QK59" # Visual Crossing Weather API Key
-unitGroup = "us" # Units for measurement (us, metric, uk, base)
+city = "" # name of city
+state = "" # name of state
+API_key = "" # Visual Crossing Weather API Key
+unitGroup = "" # Units for measurement (us, metric, uk, base)
 
 def get_observation(API_key, city, state, unitGroup):
     
